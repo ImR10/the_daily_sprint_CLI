@@ -23,8 +23,9 @@ while main:
     elif (num == "2"):
         print("\n[FINDING A TASK]")
 
-        if (tasks == None):
+        if len(tasks) == 0:
             print("To-do list is empty.\n")
+            continue
 
         i = 0
         search = input("Enter task to find: " )
@@ -40,7 +41,7 @@ while main:
     elif (num == "3"):
         print("\n[VIEWING ALL TASKS]")
 
-        if (tasks == None):
+        if len(tasks) == 0:
             print("To-do list is empty.\n")
 
         i = 0
@@ -54,9 +55,6 @@ while main:
     elif (num == "4"):
         print("\n[DELETING A TASK]")
 
-        if (tasks == None):
-            print("To-do list is empty.\n")
-
         delete = input("Enter task to delete: ")
         i = 0
         for task in tasks:
@@ -68,5 +66,8 @@ while main:
 
 
     # quit program
-    else:
+    elif (num == 5):
         main = False
+
+    else:
+        print("Invalid input.\n")
