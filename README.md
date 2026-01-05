@@ -12,8 +12,8 @@ Python 3.13.7
 4. Deleting a task
 
 ## Installation:
-Clone repo: git clone https://github.com/ImR10/the_daily_sprint_CLI.git
-Navigate to folder: cd the_daily_sprint_CLI
+Clone repo: git clone https://github.com/ImR10/the_daily_sprint_CLI.git  
+Navigate to folder: cd the_daily_sprint_CLI  
 Run app: python sprint.py
 
 ## What I learned:
